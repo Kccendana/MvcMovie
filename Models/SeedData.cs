@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "NR",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Harry Potter and the Order of the Phoenix",
+                    ReleaseDate = DateTime.Parse("2007-7-20"),
+                    Genre = "Fantasy",
+                    Rating = "PG-13",
+                    Price = 942.3M
+                },
+                new Movie
+                {
+                    Title = "Hobbs & Shaw",
+                    ReleaseDate = DateTime.Parse("2019-7-13"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 760.7M
+                },
+                new Movie
+                {
+                    Title = "The Lord of the Rings: The Return of the King",
+                    ReleaseDate = DateTime.Parse("2003-12-17"),
+                    Genre = "Fantasy",
+                    Rating = "PG-13",
+                    Price = 1148M
                 }
             );
             context.SaveChanges();
